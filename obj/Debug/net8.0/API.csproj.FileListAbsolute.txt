@@ -115,3 +115,4 @@ E:\Authjwt-Asp.Net\api\obj\Debug\net8.0\refint\API.dll
 E:\Authjwt-Asp.Net\api\obj\Debug\net8.0\API.pdb
 E:\Authjwt-Asp.Net\api\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\Authjwt-Asp.Net\api\obj\Debug\net8.0\ref\API.dll
+E:\Authjwt-Asp.Net\api\obj\Debug\net8.0\API.sourcelink.json

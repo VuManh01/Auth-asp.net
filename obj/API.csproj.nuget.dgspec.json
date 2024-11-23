@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Authjwt-Asp.Net\\api\\API.csproj": {}
+    "E:\\Authjwt-Asp.Net\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\Authjwt-Asp.Net\\api\\API.csproj": {
+    "E:\\Authjwt-Asp.Net\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Authjwt-Asp.Net\\api\\API.csproj",
+        "projectUniqueName": "E:\\Authjwt-Asp.Net\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Authjwt-Asp.Net\\api\\API.csproj",
+        "projectPath": "E:\\Authjwt-Asp.Net\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Authjwt-Asp.Net\\api\\obj\\",
+        "outputPath": "E:\\Authjwt-Asp.Net\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

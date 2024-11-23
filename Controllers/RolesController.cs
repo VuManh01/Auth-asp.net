@@ -51,6 +51,7 @@ namespace API.Controllers
             return BadRequest("Role creation failed.");
         }
         
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<RoleResponseDto>>> GetRoles() 
         {
@@ -101,7 +102,7 @@ namespace API.Controllers
             }
 
             var role = await _roleManager.FindByIdAsync(roleAssignDto.RoleId);
-
+    
             if(role is null)
             {
                 return NotFound("Role not found.");
