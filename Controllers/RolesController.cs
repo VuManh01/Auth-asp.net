@@ -55,7 +55,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<RoleResponseDto>>> GetRoles() 
         {
-
+            //list of users with total user count:
             var roles = await _roleManager.Roles.ToListAsync();
             var roleResponses = new List<RoleResponseDto>();
 
@@ -70,13 +70,14 @@ namespace API.Controllers
             });
             }
 
-            return Ok(roles);   
+            return Ok(roleResponses);   
         } 
+
     
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteRole(string id)
         {
-            //  find role by id
+            //  find role by their id
             var role = await _roleManager.FindByIdAsync(id);
             if(role == null)
             {

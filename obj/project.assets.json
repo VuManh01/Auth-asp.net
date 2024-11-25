@@ -846,6 +846,19 @@
           }
         }
       },
+      "RestSharp/111.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2694,6 +2707,31 @@
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
+    "RestSharp/111.0.0": {
+      "sha512": "jcokQTLsLFR5juvFkKWjvFkPgD66pT9Dp1zwOJpFiK8dzs0WzTvTri7sJiOZPIZPx76Kk57mWwVYlCk6eGUGRA==",
+      "type": "package",
+      "path": "restsharp/111.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net48/RestSharp.dll",
+        "lib/net48/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/net8.0/RestSharp.dll",
+        "lib/net8.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.111.0.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/7.0.0": {
       "sha512": "aF6oCgMy8CC17cSbILAw9J4UVhqOE+0Z11V8JstA+pIrXcY8ZbNL3ayHOWKZm0NdHMS6RI1k5sFVfMkpZOobvw==",
       "type": "package",
@@ -3234,6 +3272,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.2",
+      "RestSharp >= 111.0.0",
       "Swashbuckle.AspNetCore >= 7.0.0"
     ]
   },
@@ -3244,11 +3283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Authjwt-Asp.Net\\API\\API.csproj",
+      "projectUniqueName": "E:\\Project-angular-asp.net\\Authjwt-Asp.Net\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\Authjwt-Asp.Net\\API\\API.csproj",
+      "projectPath": "E:\\Project-angular-asp.net\\Authjwt-Asp.Net\\api\\API.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\Authjwt-Asp.Net\\API\\obj\\",
+      "outputPath": "E:\\Project-angular-asp.net\\Authjwt-Asp.Net\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3313,6 +3352,10 @@
             "target": "Package",
             "version": "[8.0.2, )"
           },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[111.0.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[7.0.0, )"
@@ -3358,6 +3401,16 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
       "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RestSharp' 111.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4rr6-2v9v-wcpc",
+      "libraryId": "RestSharp",
       "targetGraphs": [
         "net8.0"
       ]
